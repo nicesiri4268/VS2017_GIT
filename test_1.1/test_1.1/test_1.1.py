@@ -12,3 +12,4 @@ a={'cat_type':"美短",'age':"6"}
 for name,age in a.items():#输出键值,使用items()
     print (name)
     print (age)
+print("hello world !")
