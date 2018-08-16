@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3d90a83b-185d-4c24-824e-1fe70efec869</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test_1.1.py</StartupFile>
+    <StartupFile>file_test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="file_test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pygame1.py" />
     <Compile Include="test_1.1.py" />
   </ItemGroup>
