@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3d90a83b-185d-4c24-824e-1fe70efec869</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>file_test.py</StartupFile>
+    <StartupFile>shot_alien.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,8 +28,14 @@
     <Compile Include="file_test.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pygame1.py" />
-    <Compile Include="test_1.1.py" />
+    <Compile Include="game_functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="settings.py" />
+    <Compile Include="ship.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="shot_alien.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="..\..\..\Python APP\Pygame APP\test2\test2\test2\virtual_environment_1\">
