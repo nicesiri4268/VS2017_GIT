@@ -22,19 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bullet.py">
+    <Compile Include="bullet.py" />
+    <Compile Include="file_test.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="file_test.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="game_functions.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="game_functions.py" />
     <Compile Include="settings.py" />
-    <Compile Include="ship.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="ship.py" />
     <Compile Include="shot_alien.py" />
   </ItemGroup>
   <ItemGroup>
