@@ -25,4 +25,3 @@ def run_game():
         #更新屏幕
 
 run_game()
-print ("test")
