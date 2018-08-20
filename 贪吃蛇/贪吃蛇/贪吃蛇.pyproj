@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>贪吃蛇</Name>
     <RootNamespace>贪吃蛇</RootNamespace>
+    <InterpreterId>MSBuild|python基础环境|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="game_functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="settings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="snake.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="贪吃蛇.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="..\..\python虚拟环境\python虚拟环境\python基础环境\">
+      <Id>python基础环境</Id>
+      <Version>3.6</Version>
+      <Description>python基础环境 (Python 3.6 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
