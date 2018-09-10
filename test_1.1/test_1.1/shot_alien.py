@@ -29,7 +29,3 @@ def run_game():
         gf.update_bullet(bullets)
         gf.update_screen(ai_settings,screen,ship,aliens,bullets)
         #更新屏幕
-
-run_game()
-print ("谢谢你")
-#print ("谢谢玩耍!")
