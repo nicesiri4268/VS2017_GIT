@@ -31,5 +31,5 @@ def run_game():
         #更新屏幕
 
 run_game()
-
+print ("谢谢你")
 #print ("谢谢玩耍!")
