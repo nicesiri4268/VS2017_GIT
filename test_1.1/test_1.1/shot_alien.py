@@ -15,7 +15,7 @@ def run_game():
     ship=Ship(ai_settings,screen)
     bullets = Group()
     aliens = Group()
-
+    #添加空白的注释
     gf.creat_fleet(ai_settings,screen,ship,aliens)
     #创建一群外星人
     pygame.display.set_caption("Alian Invasion")
