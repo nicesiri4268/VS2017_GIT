@@ -9,7 +9,7 @@ class Alien(Sprite):
         self.screen = screen 
 
         #加载外星人图像,并设置其rect的值
-        self.image =pygame.image.load(r"E:\VS2017_GIT\登录登出系统\登录登出系统\test_1.1\test_1.1\images\飞碟.bmp")#绝对路径要加r
+        self.image =pygame.image.load("images\飞碟.bmp")
         self.rect = self.image.get_rect()
 
         #设置外星人最初都在屏幕左上角附近

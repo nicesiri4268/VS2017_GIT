@@ -14,10 +14,8 @@ def run_game():
     screen=pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height))
     ship=Ship(ai_settings,screen)
     bullets = Group()
-    aliens = Group()
-
-    gf.creat_fleet(ai_settings,screen,ship,aliens)
-    #创建一群外星人
+    #创建一个外星人
+    alien =Alien(ai_settings,screen)
     pygame.display.set_caption("Alian Invasion")
     
 
@@ -27,8 +25,8 @@ def run_game():
         #事件监测
         ship.updata()
         gf.update_bullet(bullets)
-        gf.update_screen(ai_settings,screen,ship,aliens,bullets)
+        gf.update_screen(ai_settings,screen,ship,alien,bullets)
         #更新屏幕
 
-run_game()
+#run_game()
 #print ("谢谢玩耍!")
