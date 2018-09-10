@@ -5,7 +5,7 @@ class Ship():
         self.screen=screen
         self.ai_settings=ai_settings
 
-        self.image=pygame.image.load('images\ship.bmp')
+        self.image=pygame.image.load(r'E:\VS2017_GIT\登录登出系统\登录登出系统\test_1.1\test_1.1\images\ship.bmp')
         self.rect=self.image.get_rect()
         #.rect这个是ship的属性
         #rect是矩形框,rect.XXX用来获取飞船属性
