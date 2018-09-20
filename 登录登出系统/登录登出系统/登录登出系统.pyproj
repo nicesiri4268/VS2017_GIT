@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6f5e43b9-834b-4139-8316-ac2c9edaf878</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>登录登出系统.py</StartupFile>
+    <StartupFile>mysql_first.py</StartupFile>
     <SearchPath>..\..\test_1.1\test_1.1</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -20,6 +20,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="mysql_first.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="斐波那契.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="登录登出系统.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

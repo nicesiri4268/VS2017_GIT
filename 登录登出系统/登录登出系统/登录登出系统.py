@@ -5,6 +5,7 @@ sys.path.append(r'E:\VS2017_GIT\test_1.1\test_1.1\shot_alien.py')
 sys.path是一个列表，里面以字符串的形式存储了许多路径。
 使用A.py文件中的函数需要先将他的文件路径放到sys.path中'''
 import shot_alien as sa
+import _mysql_connector
 
 
 def write_json_file(filename,moudel,data):

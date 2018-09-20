@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>6f5e43b9-834b-4139-8316-ac2c9edaf878</TargetProject>
+    <FriendlyName>登录登出系统</FriendlyName>
+  </ProjectTarget>
+  <Reports />
+</ProfilingTarget>
